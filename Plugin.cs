@@ -9,7 +9,7 @@ using System.Reflection.Emit;
 
 namespace Shelves
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, "1.0.2.0")]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, "1.0.3.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource Log { get; set; }
@@ -36,24 +36,23 @@ namespace Shelves
         }
 
         [HarmonyPatch(typeof(Markers.TraderInventory), "Show")]
-        public static class TraderInventory_Show_Patch
+        [HarmonyTranspiler]
+        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
-            {
-                return new CodeMatcher(instructions)
-                    .MatchForward(false,
-                        new CodeMatch(OpCodes.Call, AccessTools.Method(typeof(TradeManager), "get_Trade"))
-                    )
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .SetOpcodeAndAdvance(OpCodes.Nop)
-                    .InstructionEnumeration();
-            }
+            Log.LogInfo("Collision patched");
+            return new CodeMatcher(instructions)
+                .MatchForward(false,
+                    new CodeMatch(OpCodes.Call, AccessTools.PropertyGetter(typeof(Managers), "Trade"))
+                )
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .SetOpcodeAndAdvance(OpCodes.Nop)
+                .InstructionEnumeration();
         }
 
         private static void CustomShelves(string roomName)
