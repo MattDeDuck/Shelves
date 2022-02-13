@@ -13,6 +13,12 @@ Note: You need the `BepInEx_64` version for use with Potion Craft
 - Copy the folder into `Potion Craft/BepInEx/plugins/`
 - Run the game
 
-### Image of Shelves
+### Images
 
-![What Shelves changes](https://github.com/MattDeDuck/Shelves/blob/master/shelves.png)
+![Shelves in the Bedroom](https://github.com/MattDeDuck/Shelves/blob/master/shelvesBedroom.png)
+
+![Shelves in the Shop](https://github.com/MattDeDuck/Shelves/blob/master/shelvesShop.png)
+
+![Shelves in the Lab](https://github.com/MattDeDuck/Shelves/blob/master/shelvesLab.png)
+
+![Shelves in the Basement](https://github.com/MattDeDuck/Shelves/blob/master/shelvesBasement.png)
