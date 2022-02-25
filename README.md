@@ -23,4 +23,5 @@ Note: You need the `BepInEx_64` version for use with Potion Craft
 Note: You cannot move shelves across rooms
 
 The **Bedroom** and **Shop** have 4 shelves
+
 The **Lab** and **Basement** have 2 shelves
