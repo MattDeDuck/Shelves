@@ -28,11 +28,20 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>libs\Assembly-CSharp-nstrip.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>libs\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="QFSW.QC">
-      <HintPath>libs\QFSW.QC.dll</HintPath>
+    <Reference Include="PotionCraft.Core">
+      <HintPath>libs\PotionCraft.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PotionCraft.InputSystem">
+      <HintPath>libs\PotionCraft.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="PotionCraft.ManagerSystem">
+      <HintPath>libs\PotionCraft.ManagerSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="PotionCraft.Scripts">
+      <HintPath>libs\stripped.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
