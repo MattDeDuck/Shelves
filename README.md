@@ -1,10 +1,10 @@
 # Shelves
-Shelves is a mod made with BepInEx for use with the Potion Craft game. It adds shelves to the bedroom, shop, lab and basement.
+Shelves is a mod made with BepInEx for use with the Potion Craft game. It uses the shelves objects already in the game files to the bedroom, shop, lab and basement.
 
-Compatible with beta version 0.5.0
+This mod is designed to work with the 1.0.2.1 version of Potion Craft
 
 ### BepInEx
-- Download the latest BepInEx release from [here](https://github.com/BepInEx/BepInEx/releases)
+- Download the latest BepInEx 5 release from [here](https://github.com/BepInEx/BepInEx/releases)
 Note: You need the `BepInEx_64` version for use with Potion Craft
 - You can read the installation for BepInEx [here](https://docs.bepinex.dev/articles/user_guide/installation/index.html)
 - Once installed run once to generate the config files and folders
@@ -12,11 +12,11 @@ Note: You need the `BepInEx_64` version for use with Potion Craft
 ### Shelves installation
 - Download the latest version from the [releases page](https://github.com/MattDeDuck/Shelves/releases)
 - Unzip the folder
-- Copy the folder into `Potion Craft/BepInEx/plugins/`
+- Copy the folder containing the `Shelves.dll` file into `Potion Craft/BepInEx/plugins/`
 - Run the game
 
 
-Note: You cannot move shelves
+Note: You cannot move the shelves
 
 
 ### Images

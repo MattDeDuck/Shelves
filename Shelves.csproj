@@ -30,18 +30,15 @@
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
       <HintPath>libs\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="PotionCraft.Core">
-      <HintPath>libs\PotionCraft.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="PotionCraft.InputSystem">
-      <HintPath>libs\PotionCraft.InputSystem.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="PotionCraft.ManagerSystem">
       <HintPath>libs\PotionCraft.ManagerSystem.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="PotionCraft.Scripts">
       <HintPath>libs\stripped.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
 </Project>

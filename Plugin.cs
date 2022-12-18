@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace Shelves
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, "1.0.4.0")]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, "1.0.2.1")]
     public class Plugin : BaseUnityPlugin
     {
         // Logging source
