@@ -36,9 +36,16 @@
       <HintPath>libs\PotionCraft.ManagerSystem.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="PotionCraft.SceneLoader">
+      <HintPath>libs\PotionCraft.SceneLoader.dll</HintPath>
+    </Reference>
     <Reference Include="PotionCraft.Scripts">
       <HintPath>libs\stripped.dll</HintPath>
       <Private>false</Private>
     </Reference>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="libs\" />
   </ItemGroup>
 </Project>
