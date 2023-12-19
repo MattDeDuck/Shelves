@@ -1,0 +1,9 @@
+{
+    "name": "PotionCraftShelves",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/MattDeDuck/Shelves/",
+    "description": "A mod made with BepInEx for use with the Potion Craft game. It adds shelves to the bedroom, shop and basement.",
+    "dependencies": [
+        "BepInEx-BepInExPack_PotionCraft-5.4.18"
+    ]
+}

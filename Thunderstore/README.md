@@ -27,8 +27,8 @@ Note: You cannot move the shelves
 
 ### Images
 
-![Shop](https://github.com/MattDeDuck/Shelves/blob/master/images/screen1.png)
+![Shop](https://github.com/MattDeDuck/Shelves/blob/master/images/screen1.png?raw=true)
 
-![Lab](https://github.com/MattDeDuck/Shelves/blob/master/images/screen2.png)
+![Lab](https://github.com/MattDeDuck/Shelves/blob/master/images/screen2.png?raw=true)
 
-![Bedroom](https://github.com/MattDeDuck/Shelves/blob/master/images/screen3.png)
+![Bedroom](https://github.com/MattDeDuck/Shelves/blob/master/images/screen3.png?raw=true)

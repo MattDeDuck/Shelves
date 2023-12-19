@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace Shelves
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, "1.1.0.0")]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, "1.1.1.0")]
     public class Plugin : BaseUnityPlugin
     {
         // Logging source
